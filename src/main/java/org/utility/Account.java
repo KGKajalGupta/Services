@@ -27,4 +27,7 @@ public class Account {
     private String ifsceCode;
     private String AccountOpeningDate;
 
+    public BigDecimal getBalance(){
+        return BigDecimal.valueOf(56000.00);
+    }
 }
